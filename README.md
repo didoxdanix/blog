@@ -21,4 +21,3 @@ Ao longo dos anos, conquistei as seguintes certificações:
 
 [Linkedin](https://www.linkedin.com/in/diogo-fernandess)
 
-Ao longo dos anos, conquistei algumas certificações que considero marcantes.
