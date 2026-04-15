@@ -284,5 +284,4 @@ Agora:
 431
 ```
 
-  
-É isso pessoal! Espero que este artigo ajude você a atualizar seu Ksplice. Qualquer coisa, só chamar no [**linkedin**](https://www.linkedin.com/in/diogo-fernandess/) 🙂
+É isso pessoal! Espero que este artigo ajude vocês a atualizar seu Ksplice. Qualquer coisa, só chamar no [**linkedin**](https://www.linkedin.com/in/diogo-fernandess/) 🙂
