@@ -1,32 +1,32 @@
 ---
-title: "Ksplice: Atualizando CVEs"
+title: "Ksplice: Updating CVEs"
 datePublished: 2026-04-15T23:14:38.865Z
 cuid: cmo0o3wcw000u1qmdc65wb0o3
-slug: ksplice-atualizando-cves
+slug: ksplice-updating-cves
 cover: https://cdn.hashnode.com/uploads/covers/677046341c3ce68f37f2ae3c/8290bce2-e206-4ad1-96c5-721556a85558.png
 
 ---
 
-No meu outro artigo sobre Ksplice ([aqui](https://diogofernandes.com.br/ksplice-configuracao-e-instalacao-em-ambientes-oracle-linux)), demonstrei como instalar, configurar e aplicar os pacotes de segurança (CVEs) do Ksplice.
-
-Neste artigo, vou mostrar como atualizar esses pacotes, como instalar a versão mais recente do Ksplice e como manter o sistema operacional com o nível de segurança mais elevado possível.
-
-Com tudo já devidamente configurado, conforme demonstrado no [artigo anterior](https://diogofernandes.com.br/ksplice-configuracao-e-instalacao-em-ambientes-oracle-linux), o processo de manutenção é bastante simples e envolve apenas três etapas:
-
-Primeiro Passo: Verificar a versão atualmente instalada.
+In my other article about Ksplice ([here](https://diogofernandes.com.br/ksplice-configuracao-e-instalacao-em-ambientes-oracle-linux)), I demonstrated how to install, configure, and apply Ksplice security packages (CVEs).  
+  
+In this article, I will show how to update these packages, install the latest version of Ksplice, and keep the operating system at the highest possible security level.  
+  
+With everything properly configured as shown in the [previous article](https://diogofernandes.com.br/ksplice-configuracao-e-instalacao-em-ambientes-oracle-linux), the maintenance process is quite simple and involves just four steps:  
+  
+First Step: Check the currently installed version.
 
 ```bash
 [root@srvora02 ~]# uptrack-uname -r
 5.15.0-302.167.6.1.el9uek.x86_64
 ```
 
-Segundo Passo: Instalar a versão mais recente disponível.
+Second Step: Install the latest available version.
 
 ```bash
 /usr/bin/python2 /usr/sbin/uptrack-upgrade -y --all
 ```
 
-Terceiro Passo: Acompanhar a atualização.
+Third Step: Monitor the update.
 
 ```bash
 The following steps will be taken:
@@ -264,10 +264,10 @@ Your kernel is fully up to date.
 Effective kernel version is 5.15.0-318.199.3.2.1.el9uek
 ```
 
-Quarto Passo: Confirmar a instalação e validar os CVEs aplicados.
+Fourth Step: Confirm the installation and validate the applied CVEs.
 
 ```bash
-Antes: 
+Before: 
 
 [root@srvora02 ~]# uptrack-uname -r
 5.15.0-302.167.6.1.el9uek.x86_64
@@ -275,7 +275,7 @@ Antes:
 [root@srvora02 ~]# uptrack-show | wc -l 
 330
 
-Agora:
+After:
 
 [root@srvora02 ~]# uptrack-uname -r
 5.15.0-318.199.3.2.1.el9uek.x86_64
@@ -284,4 +284,4 @@ Agora:
 431
 ```
 
-É isso pessoal! Espero que este artigo ajude vocês a atualizar seu Ksplice. Qualquer coisa, só chamar no [**linkedin**](https://www.linkedin.com/in/diogo-fernandess/) 🙂
+That's it, folks! I hope this article helps you update your Ksplice. If you need anything, just reach out [**linkedin**](https://www.linkedin.com/in/diogo-fernandess/) 🙂
