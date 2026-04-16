@@ -284,4 +284,4 @@ After:
 431
 ```
 
-That's it, folks! I hope this article helps you update your Ksplice. If you need anything, just reach out [**linkedin**](https://www.linkedin.com/in/diogo-fernandess/) 🙂
+That's it, folks! I hope this article helps you update your Ksplice. If you need anything, just reach out on [**linkedin**](https://www.linkedin.com/in/diogo-fernandess/) 🙂
