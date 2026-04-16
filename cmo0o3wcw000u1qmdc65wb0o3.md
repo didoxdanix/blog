@@ -3,7 +3,7 @@ title: "Ksplice: Updating CVEs"
 datePublished: 2026-04-15T23:14:38.865Z
 cuid: cmo0o3wcw000u1qmdc65wb0o3
 slug: ksplice-updating-cves
-cover: https://cdn.hashnode.com/uploads/covers/677046341c3ce68f37f2ae3c/8290bce2-e206-4ad1-96c5-721556a85558.png
+cover: https://cdn.hashnode.com/uploads/covers/677046341c3ce68f37f2ae3c/553ecb9f-9a23-4db1-8daf-90d2bfa98bac.png
 
 ---
 
